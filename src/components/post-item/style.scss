@@ -1,0 +1,21 @@
+.post{
+    background-color: rgba(0, 173, 255, 0.09);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: left;
+
+    &__title {
+        margin-bottom: 5px;;
+    }
+
+    &__content{
+        font-size: 0.85em;
+        width: 99%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* after 3 line show ... */
+        -webkit-box-orient: vertical;
+    }
+}
